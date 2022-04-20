@@ -6,7 +6,6 @@ PImage robotImg;
 PImage groundhogldle;
 
 int x =0;
-int lightPos = 240+25;
  
 
 
@@ -39,8 +38,8 @@ void draw() {
   line(lightPos -40, 240+37, lightPos, 240+37);
   lightPos=lightPos-2;
   
-  
   x=x+1;
+  
   if ( x > 640)
     x = -80;
   
