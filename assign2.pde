@@ -25,7 +25,7 @@ void draw() {
   image(lifeImg,80,10);
   image(lifeImg,150,10);
   image(soldierImg, x, 160);
-  image(groundhogImg, 200, 160);
+  image(groundhogImg, 240, 240);
   
   if(soldier == groundhog){
   lifeImg--;
