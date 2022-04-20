@@ -5,21 +5,18 @@ PImage soldierImg;
 PImage groundhogImg;
 
 int x =0;
+int y = 0;
 int lightPos = 240+25;
 
- 
-
-
 void setup() {
-    size(640, 480, P2D);
+   size(640, 480, P2D);
+   
    bgImg = loadImage("img/bg.jpg");
    soilImg = loadImage("img/soil.png");
    lifeImg= loadImage("img/life.png");
    soldierImg = loadImage("img/soldier.png");
    groundhogImg = loadImage("img/groundhog.png");
 }
-
- 
 
 void draw() {
   image(bgImg,0,0);
@@ -30,13 +27,18 @@ void draw() {
   image(soldierImg, x, 160);
   image(groundhogImg, 200, 160);
   
-  
-  
+  if(soldier == groundhog){
+  lifeImg--;
+  }
   
   
   x=x+1;
   if ( x > 640)
     x = -80;
+    
+  x=y+1;
+  if ( y > 640)
+    y = -80;
   
   
 }
