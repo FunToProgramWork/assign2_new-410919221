@@ -6,8 +6,6 @@ PImage robotImg;
 PImage groundhogldle;
 
 int x =0;
- 
-
 
 void setup() {
    size(640, 480, P2D);
@@ -19,8 +17,6 @@ void setup() {
    robotImg = loadImage("img/robot.png");
    groundhogldleImg = loadImage("img/groundhogldle.png");
 }
-
- 
 
 void draw() {
 
@@ -42,6 +38,5 @@ void draw() {
   
   if ( x > 640)
     x = -80;
-  
-  
+    
 }
