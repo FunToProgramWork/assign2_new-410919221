@@ -4,6 +4,7 @@ PImage lifeImg;
 PImage soldierImg;
 PImage robotImg;
 PImage groundhog;
+
 int x =0;
 int lightPos = 240+25;
  
@@ -17,7 +18,7 @@ void setup() {
    lifeImg= loadImage("img/life.png");
    soldierImg = loadImage("img/soldier.png");
    robotImg = loadImage("img/robot.png");
-   groundhog = loadImage("img/groundhog.png");
+   groundhogImg = loadImage("img/groundhog.png");
 }
 
  
