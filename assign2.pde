@@ -31,11 +31,18 @@ void draw() {
   lifeImg--;
   }
   
-  strokeWeight(10.0);
-  strokeCap(ROUND);
-  stroke(255,0,0);
-  line(lightPos -40, 240+37, lightPos, 240+37);
-  lightPos=lightPos-2;
+   while(n!=n.next) {
+            count++;
+            if (count == 3) {
+                before.next = x.next;
+                count=0;
+                System.out.print(x.item + ",");
+                x = x.next;
+            } else {
+                before=n;
+                x = x.next;
+            }
+        }
   
   x=x+1;
   if ( x > 640)
