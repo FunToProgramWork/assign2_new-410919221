@@ -13,7 +13,6 @@ int lightPos = 240+25;
 
 void setup() {
     size(640, 480, P2D);
-    // Enter Your Setup Code Here
    bgImg = loadImage("img/bg.jpg");
    soilImg = loadImage("img/soil.png");
    lifeImg= loadImage("img/life.png");
@@ -25,10 +24,6 @@ void setup() {
  
 
 void draw() {
-    // Enter Your Code Here
-
- 
-
   image(bgImg,0,0);
   image(soilImg, 0,160);
   image(lifeImg,10,10);
