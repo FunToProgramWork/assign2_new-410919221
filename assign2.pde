@@ -3,7 +3,7 @@ PImage soilImg;
 PImage lifeImg;
 PImage soldierImg;
 PImage robotImg;
-PImage groundhogldle;
+PImage groundhogldleImg;
 
 int x =0;
 
