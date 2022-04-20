@@ -4,7 +4,6 @@ PImage lifeImg;
 PImage soldierImg;
 PImage robotImg;
 int x =0;
-int lightPos = 240+25;
 
  
 
