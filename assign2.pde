@@ -31,11 +31,7 @@ void draw() {
   image(groundhogImg, 200, 160);
   
   
-  strokeWeight(10.0);
-  strokeCap(ROUND);
-  stroke(255,0,0);
-  line(lightPos -40, 240+37, lightPos, 240+37);
-  lightPos=lightPos-2;
+  
   
   
   x=x+1;
