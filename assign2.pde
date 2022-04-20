@@ -5,7 +5,7 @@ PImage soldierImg;
 PImage groundhogImg;
 
 int x =0;
-int y = 0;
+
 int lightPos = 240+25;
 
 void setup() {
@@ -36,9 +36,7 @@ void draw() {
   if ( x > 640)
     x = -80;
     
-  y=y+1;
-  if ( y > 640)
-    y = -80;
+  
   
   
 }
